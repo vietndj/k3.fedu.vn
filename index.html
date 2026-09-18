@@ -1286,7 +1286,8 @@
   
     // Bật/tắt và giữ popup menu trên cả máy tính lẫn di động không bị lỗi lướt chuột
     document.addEventListener("DOMContentLoaded", () => {
-      const dd = document.querySelector(".nav-dropdown");
+      const dropdowns_all = document.querySelectorAll(".nav-dropdown");
+      dropdowns_all.forEach(dd => {
       if (!dd) return;
       const btn = dd.querySelector(".nav-dropdown-btn");
       if (btn) {
