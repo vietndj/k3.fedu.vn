@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Kiến Thức Chuyển Cảnh (3 Cấp Độ)</title>
+  <style>
+    @font-face { font-family: "FD Aeonik"; src: url("https://fedu.vn/course/fonts/FDAeonikBold.ttf") format("truetype"); font-weight: 700; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'FD Integral'; src: url('https://fedu.vn/course/fonts/FDIntegralCF-Regular.ttf') format('truetype'); font-weight: 700; }
+    @font-face { font-family: 'Tiempos Text'; src: url('https://fedu.vn/course/fonts/FDTiemposText-Regular.woff2') format('woff2'); font-weight: 400; }
+
+    @font-face { font-family: "Tiempos Text"; src: url("https://fedu.vn/course/fonts/FDTiemposText-Semibold.woff2") format("woff2"); font-weight: 600; font-style: normal; }
+    @font-face { font-family: "Tiempos Text"; src: url("https://fedu.vn/course/fonts/FDTiemposText-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; }
+    @font-face { font-family: "Tiempos Text"; src: url("https://fedu.vn/course/fonts/FDTiemposText-RegularItalic.woff2") format("woff2"); font-weight: 400; font-style: italic; }
+
+    :root { --bg: #ffffff; --text: #0f172a; --accent: #ff6719; --gray: #666666; --border: #e8e8e8; }
+    body { background: var(--bg); color: var(--text); font-family: 'Tiempos Text', serif; line-height: 1.75; margin: 0; }
+    
+    /* Navbar & Meta */
+    .navbar { display: flex; justify-content: space-between; padding: 16px 24px; border-bottom: 1px solid var(--border); font-family: 'FD Aeonik', sans-serif; font-weight: 700; }
+    .subscribe { background: var(--accent); color: white; padding: 8px 16px; border-radius: 999px; text-decoration: none; font-size: 14px; }
+    
+    .container { max-width: 680px; margin: 0 auto; padding: 60px 20px; }
+    h1 { font-family: 'FD Aeonik', sans-serif; font-weight: 700; letter-spacing: -0.01em; color: #090d16; line-height: 1.1; text-transform: uppercase; }
+    h2, h3 { font-family: 'FD Aeonik', sans-serif; font-weight: 700; letter-spacing: -0.01em; color: #090d16; line-height: 1.15; text-transform: uppercase; }
+    h1 { font-size: 42px; margin-bottom: 24px;  line-height: 1.1; }
+    
+    .meta { display: flex; align-items: center; gap: 12px; margin-bottom: 40px; font-family: 'FD Aeonik', sans-serif; color: var(--gray); font-size: 14px; }
+    .avatar { width: 48px; height: 48px; border-radius: 50%; background: url("https://fedu.vn/course/assets/viet_avatar.png") center/cover no-repeat; }
+    
+    /* Content & Footer & FAB */
+    .article-content { font-size: 20px; }
+    .article-content h2 { font-size: 28px; margin: 48px 0 24px; }
+
+    .article-content p { margin: 0 0 24px 0; line-height: 1.75; }
+    .article-content ul, .article-content ol { margin: 0 0 32px 0; padding-left: 24px; }
+    .article-content li { margin-bottom: 16px; line-height: 1.65; padding-left: 8px; }
+    .article-content li::marker { color: var(--accent); }
+    .article-content b, .article-content strong { color: #000000; font-weight: bold; }
+
+    blockquote { border-left: 3px solid var(--accent); padding-left: 24px; margin: 32px 0; font-style: italic; color: #334155; }
+
+    .footer { border-top: 1px solid var(--border); padding: 40px 20px; text-align: center; font-family: "FD Aeonik", sans-serif; font-size: 14px; color: var(--gray); margin-top: 60px; background: #fafafa; }
+
+    .video-wrapper { display: flex; flex-direction: column; gap: 24px; margin-top: 32px; margin-bottom: 32px; align-items: center; }
+    .video-wrapper video { max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 340px; }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">NGUYEN DUC VIET</div>
+    <a href="/" class="subscribe">Quay Lại K3</a>
+  </div>
+  <div class="container">
+    <h1>Kiến Thức Chuyển Cảnh (3 Cấp Độ)</h1>
+    <div class="meta">
+      <div class="avatar"></div>
+      <div class="meta-info">
+        <div><a href="#">Nguyễn Đức Việt</a></div>
+        <div>Hôm nay • 5 min read</div>
+      </div>
+    </div>
+    <div class="article-content">
+      <p>Bóc tách 3 cấp độ chuyển cảnh từ cơ bản đến nâng cao, dựa trên bối cảnh và điều kiện thực tế của bạn.</p>
+
+      <h2>Lv.1: Chỗ đông người</h2>
+      <p>Chuyển cảnh bằng thao tác tay thật nhanh, gọn — không có thời gian setup.</p>
+      
+      <div class="video-wrapper">
+        <video src="https://media.fedu.vn/k3-videos/v1.mp4" controls playsinline></video>
+        <video src="https://media.fedu.vn/k3-videos/v2.mp4" controls playsinline></video>
+      </div>
+
+      <h2>Lv.2: Chỗ vắng người</h2>
+      <p>Có thể đặt chân máy, căn góc quay đĩnh đạc và mượt hơn. Nếu không có mồi cảnh -> cắt ngay chuyển động.</p>
+      
+      <div class="video-wrapper">
+        <video src="https://media.fedu.vn/k3-videos/v3.mp4" controls playsinline></video>
+        <video src="https://media.fedu.vn/k3-videos/v4.mp4" controls playsinline></video>
+      </div>
+
+      <h2>Lv.3: Không gian riêng tư, có mồi cảnh và nối cảnh chi tiết</h2>
+      <p>Chủ động setup và mượn hẳn các vật thể xung quanh (cửa, bàn, ly nước…) làm điểm nối, tăng độ hấp dẫn thị giác cho cú chuyển cảnh.</p>
+      
+      <div class="video-wrapper">
+        <video src="https://media.fedu.vn/k3-videos/v5.mp4" controls playsinline></video>
+        <video src="https://media.fedu.vn/k3-videos/v6.mp4" controls playsinline></video>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    © nguyenducviet.video
+  </div>
+</body>
+</html>
