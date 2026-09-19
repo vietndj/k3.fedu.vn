@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Case Study: Khiêm Nguyễn - 7 Tiếng Tiếp Xúc</title>
+  <style>
+    @font-face { font-family: "FD Aeonik"; src: url("./fonts/FDAeonikBold.ttf") format("truetype"); font-weight: 700; font-style: normal; font-display: swap; }
+    @font-face { font-family: 'FD Integral'; src: url('./fonts/FD IntegralCF-Regular.ttf') format('truetype'); font-weight: 700; }
+    @font-face { font-family: 'Tiempos Text'; src: url('./fonts/FDTiemposText-Regular.woff2') format('woff2'); font-weight: 400; }
+
+    @font-face { font-family: "Tiempos Text"; src: url("./fonts/FDTiemposText-Semibold.woff2") format("woff2"); font-weight: 600; font-style: normal; }
+    @font-face { font-family: "Tiempos Text"; src: url("./fonts/FDTiemposText-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; }
+    @font-face { font-family: "Tiempos Text"; src: url("./fonts/FDTiemposText-RegularItalic.woff2") format("woff2"); font-weight: 400; font-style: italic; }
+
+    
+    :root { --bg: #ffffff; --text: #0f172a; --accent: #ff6719; --gray: #666666; --border: #e8e8e8; }
+    body { background: var(--bg); color: var(--text); font-family: 'Tiempos Text', serif; line-height: 1.75; margin: 0; }
+    
+    /* Navbar & Meta */
+    .navbar { display: flex; justify-content: space-between; padding: 16px 24px; border-bottom: 1px solid var(--border); font-family: 'FD Aeonik', sans-serif; font-weight: 700; }
+    .subscribe { background: var(--accent); color: white; padding: 8px 16px; border-radius: 999px; text-decoration: none; font-size: 14px; }
+    
+    .container { max-width: 680px; margin: 0 auto; padding: 60px 20px; }
+    h1 { font-family: 'FD Integral', sans-serif; font-weight: 700; letter-spacing: -0.01em; color: #090d16; line-height: 1.1; text-transform: uppercase; }
+    h2, h3 { font-family: 'FD Integral', sans-serif; font-weight: 700; letter-spacing: -0.01em; color: #090d16; line-height: 1.15; text-transform: uppercase; }
+    h1 { font-size: 42px; margin-bottom: 24px;  line-height: 1.1; }
+    
+    .meta { display: flex; align-items: center; gap: 12px; margin-bottom: 40px; font-family: 'FD Aeonik', sans-serif; color: var(--gray); font-size: 14px; }
+    .avatar { width: 48px; height: 48px; border-radius: 50%; background-color: #eee; background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23ccc"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>'); background-size: cover; background-position: center; }
+    
+    /* Content & Footer & FAB */
+    .article-content { font-size: 20px; }
+    .article-content h2 { font-size: 28px; margin: 48px 0 24px; }
+
+    .article-content p { margin: 0 0 24px 0; line-height: 1.75; }
+    .article-content ul, .article-content ol { margin: 0 0 32px 0; padding-left: 24px; }
+    .article-content li { margin-bottom: 16px; line-height: 1.65; padding-left: 8px; }
+    .article-content li::marker { color: var(--accent); }
+    .article-content b, .article-content strong { color: #000000; font-weight: bold; }
+    
+    .article-content a { color: var(--accent); text-decoration: none; }
+    .article-content a:hover { text-decoration: underline; }
+
+    blockquote { border-left: 3px solid var(--accent); padding-left: 24px; margin: 32px 0; font-style: italic; color: #334155; }
+
+    .footer { border-top: 1px solid var(--border); padding: 40px 20px; text-align: center; font-family: "FD Aeonik", sans-serif; font-size: 14px; color: var(--gray); margin-top: 60px; background: #fafafa; }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">K3 FEDU VN</div>
+    <a href="https://www.facebook.com/Khiemnguyen83" target="_blank" class="subscribe">Kết nối Khiêm Nguyễn</a>
+  </div>
+  <div class="container">
+    <h1>Phân Tích Case Study: Cấu Trúc Phân Bổ Nội Dung Và Cơ Chế Tâm Lý Hành Vi</h1>
+    <div class="meta">
+      <div class="avatar"></div>
+      <div class="meta-info"><div><a href="https://www.facebook.com/Khiemnguyen83" style="color:inherit; text-decoration:none;">Khiêm Nguyễn</a></div><div>Phân tích • 3 phút đọc</div></div>
+    </div>
+    <div class="article-content">
+      <p>Chúng ta sẽ sử dụng dữ liệu từ trang cá nhân <strong>Khiêm Nguyễn</strong> (<a href="https://www.facebook.com/Khiemnguyen83" target="_blank">https://www.facebook.com/Khiemnguyen83</a>) như một minh họa thực tế để bóc tách cách thức vận hành của quy tắc "7 tiếng tiếp xúc". Mục đích ở đây là hiểu rõ cấu trúc luồng thông tin và cơ chế điều hướng hành vi, xem nó như một hệ dữ liệu tham khảo thay vì một hình mẫu rập khuôn.</p>
+
+      <h2>1. Cấu trúc phân bổ nội dung (Kiểm soát mục đích bán hàng)</h2>
+      <p>Dữ liệu hiển thị trên trang được phân lớp theo một cấu trúc rõ ràng:</p>
+      <ul>
+        <li><strong>Khoảng 75% Nội dung bối cảnh sống (Lifestyle):</strong> Các hoạt động thường nhật như ăn sáng, không gian sống, lịch trình di chuyển, sinh hoạt gia đình.</li>
+        <li><strong>Khoảng 15% Nội dung chuyên môn:</strong> Chia sẻ khái niệm về định vị bản thân và thương hiệu cá nhân.</li>
+        <li><strong>Khoảng 10% Nội dung chuyển đổi:</strong> Cập nhật kết quả thu nhập và thông báo dịch vụ tư vấn (Coaching).</li>
+      </ul>
+      <p>Mục đích của cấu trúc này là tối ưu hóa thời gian lưu giữ người xem. Bằng cách dành phần lớn dung lượng cho nội dung đời sống trung lập, kênh loại bỏ được áp lực mua bán. Khách hàng không có cảm giác bị ép buộc tiêu dùng, từ đó họ tự nguyện nán lại để tích lũy đủ thời lượng 7 tiếng tiếp xúc tự nhiên.</p>
+
+      <h2>2. Ứng dụng "Tín hiệu đắt giá" (Costly Signaling) qua bối cảnh thực</h2>
+      <p>Việc thường xuyên đăng tải các video mang nhịp độ chậm, thảnh thơi vào các khung giờ làm việc tiêu chuẩn đóng vai trò là một dạng <strong>"Tín hiệu đắt giá" (Costly Signaling)</strong> trong hành vi học.</p>
+      <ul>
+        <li>Theo cơ chế thông thường, khách hàng luôn thiết lập rào cản tâm lý trước các tín hiệu chào mời vồ vập.</li>
+        <li>Bằng cách thể hiện sự ung dung, chủ kênh phát đi một thông điệp ngầm về sự độc lập tài chính và không chịu áp lực phải chốt sale.</li>
+        <li>Tính chân thực của bối cảnh sống đóng vai trò như một dữ liệu kiểm chứng. Khách hàng sử dụng dữ liệu này để tự xác thực năng lực của người cung cấp dịch vụ, giúp hạ thấp rào cản phòng thủ một cách chủ động.</li>
+      </ul>
+
+      <h2>3. Điểm rơi của nội dung bán dịch vụ (Chiến lược Pull Marketing)</h2>
+      <p>Các video bán dịch vụ tư vấn thương hiệu cá nhân được chèn vào một cách có chủ đích ở cuối phễu, sau khi các lớp nội dung trên đã hoàn tất vai trò.</p>
+      <ul>
+        <li><strong>Lớp bối cảnh sống (75%)</strong> làm nhiệm vụ khơi gợi sự quan tâm và định hình nhu cầu (mong muốn đạt được sự tự do tương tự).</li>
+        <li><strong>Lớp chuyên môn (15%)</strong> làm nhiệm vụ xác lập độ tin cậy.</li>
+        <li><strong>Bài bán dịch vụ (10%)</strong> xuất hiện ở thời điểm này đóng vai trò là một giải pháp trực diện để giải quyết nhu cầu đã được hình thành.</li>
+      </ul>
+      <p>Đó là cơ chế vận hành cơ bản của <strong>Pull Marketing (Lực hút)</strong>. Bài bán hàng không đóng vai trò chèo kéo, mà đóng vai trò cung cấp lối ra (Call to Action) cho một tệp khách hàng đã hoàn tất quá trình tích lũy thông tin và độ tin cậy.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    © K3 FEDU VN - Hệ thống dữ liệu tham khảo
+  </div>
+</body>
+</html>
