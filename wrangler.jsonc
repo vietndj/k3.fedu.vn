@@ -1,11 +1,9 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "k3 fedu vn",
+  "name": "k3-fedu-vn",
   "compatibility_date": "2026-09-17",
   "observability": {
     "enabled": true
   },
-  "assets": {
-    "directory": "."
-  }
+  "pages_build_output_dir": "."
 }
