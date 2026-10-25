@@ -1,0 +1,17 @@
+{
+  "site_id": "k3",
+  "title": "K3 CASE STUDY • Kho Phân Tích Chuyển Cảnh & Kênh Học Viên",
+  "brand_badge": "K3",
+  "brand_name": "CASE STUDY",
+  "github_repo": "vietndj/k3.fedu.vn",
+  "allow_embedded_cover": false,
+  "live_discovery": false,
+  "cover_base_url": "https://media.fedu.vn/k_covers",
+  "exclude_files": [
+    "index.html",
+    "hub.html",
+    "404.html",
+    "fix-url.html",
+    "admin.html"
+  ]
+}
